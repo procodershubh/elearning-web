@@ -25,7 +25,7 @@
 }
 .nav1 a{
  text-decoration: none; 
- font-size: 30px;
+ font-size: 20px;
  
  color: white;  
  font-family: cursive;
@@ -614,7 +614,7 @@ height: 340px;
         width: 80%;
     }
     .nav1 a{
-        font-size: 20px;
+        font-size: 14px;
     }
     .toggle{
         display: block;
@@ -666,7 +666,7 @@ height: 340px;
         display: flex;
     }
     .nav1 a{
-        font-size: 14px;
+        font-size: 11px;
     }
 
     .nav2 ul li a{
