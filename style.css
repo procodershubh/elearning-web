@@ -630,7 +630,9 @@ height: 340px;
 }
 @media(max-width:500px)
 {
-
+   #nav{
+    position: absolute;
+   }
     .toggle{
         display: block;
         float: right;
@@ -655,7 +657,7 @@ height: 340px;
         margin-top: 82px;
     }
     .nav1 a{
-        font-size: 11px;
+        font-size: 10px;
     }
     .navcon{
         width: 95%;
@@ -730,9 +732,24 @@ height: 340px;
    }
    .eightcon{
     width: 95%;
+    height: auto;
+    display: contents;
+   }
+   .eight form{
+    margin-top: 10px;
+   }
+   .form1 ul{
+    text-align: center;
+
+}
+   .form1 ul li{
+    margin-bottom: 20px;
    }
    .form1 ul li input{
-    width: 75%;
+    width: 80%;
+   }
+   .form2{
+    text-align: center;
    }
    .form2 textarea{
     width: 249px;
