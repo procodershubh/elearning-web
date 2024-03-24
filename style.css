@@ -645,21 +645,26 @@ height: 340px;
     width: 100%;
     }
     .nav2 ul li{
-        height: 76px;
-        line-height: 76px;
+        height: 60px;
+        line-height: 60px;
     }
     ul.show{
         display: block;
-        width: 19%;
+        width: 22%;
         display: flex;
+        margin-top: 82px;
     }
     .nav1 a{
         font-size: 11px;
     }
+    .navcon{
+        width: 95%;
+    }
 
     .nav2 ul li a{
         padding-inline: 5px;
-        font-size: 14px;
+        font-weight: bold;
+        font-size: 10px;
     }
     #sec>section h1{
         font-size: 60px;
