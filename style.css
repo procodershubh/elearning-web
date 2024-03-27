@@ -12,7 +12,7 @@
     
 }
 .navcon{
-    width: 80%;
+    width: 90%;
     display: flex;
     height: 90px;
     line-height: 90px;
@@ -595,6 +595,15 @@ height: 340px;
 }
 @media(max-width:900px)
 {
+
+    #nav{
+        position: absolute;
+        height: 60px;
+       }
+       .navcon{
+        height: 60px;
+        line-height: 60px;
+       }
     main{
         width: 100%;
     }
@@ -632,6 +641,11 @@ height: 340px;
 {
    #nav{
     position: absolute;
+    height: 60px;
+   }
+   .navcon{
+    height: 60px;
+    line-height: 60px;
    }
     .toggle{
         display: block;
