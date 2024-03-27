@@ -597,8 +597,9 @@ height: 340px;
 {
 
     #nav{
-        position: absolute;
+        position: fixed;
         height: 60px;
+
        }
        .navcon{
         height: 60px;
@@ -640,7 +641,7 @@ height: 340px;
 @media(max-width:500px)
 {
    #nav{
-    position: absolute;
+    position: fixed;
     height: 60px;
    }
    .navcon{
