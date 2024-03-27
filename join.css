@@ -31,9 +31,14 @@ input::-webkit-inner-spin-button {
    text-align: center;
     font-family: sans-serif;
     font-size: 50px;
-    background-clip: text;
-    color: transparent;
+    /* color: transparent; */
     
+
+
+    
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
 .log2:nth-child(1) p{
